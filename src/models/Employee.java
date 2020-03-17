@@ -115,11 +115,11 @@ public class Employee{
         this.updated_at = updated_at;
     }
 
-    public Integer getDeleted_falg() {
+    public Integer getDelete_flag() {
         return delete_flag;
     }
 
-    public void setDeleted_falg(Integer delete_flag) {
+    public void setDelete_flag(Integer delete_flag) {
         this.delete_flag = delete_flag;
     }
 
