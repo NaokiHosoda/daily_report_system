@@ -39,6 +39,7 @@ public class EmployeeShowServlet extends HttpServlet {
            em.close();
 
            request.setAttribute("employee", e);
+
            RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/employees/show.jsp");
            rd.forward(request, response);
     }
